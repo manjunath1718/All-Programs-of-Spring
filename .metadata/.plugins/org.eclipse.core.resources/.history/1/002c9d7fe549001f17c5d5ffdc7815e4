@@ -1,0 +1,4 @@
+spring.application.name=SpringBootProfiles
+
+spring.profiles.include=mockito
+spring.profiles.active=sit

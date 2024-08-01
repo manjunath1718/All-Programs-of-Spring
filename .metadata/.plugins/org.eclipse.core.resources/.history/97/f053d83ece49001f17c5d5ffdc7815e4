@@ -1,0 +1,3 @@
+spring.application.name=SpringBootProfiles
+
+spring.profiles.active=sit

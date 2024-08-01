@@ -1,0 +1,19 @@
+package com.telusko;
+
+public class Voter {
+	
+	String name;
+	Integer id;
+
+	static {
+		System.out.println("Voter class is loaded");
+	}
+	
+	public Voter() {
+		System.out.println("Voter Bean created");
+	}
+	
+	
+	
+	
+}

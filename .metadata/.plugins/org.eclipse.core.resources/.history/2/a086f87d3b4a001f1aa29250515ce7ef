@@ -1,0 +1,29 @@
+package com.telusko;
+
+public class Voter {
+	
+	String name;
+	Integer age;
+
+	static {
+		System.out.println("Voter class is loaded");
+	}
+	
+	public Voter() {
+		System.out.println("Voter Bean created");
+	}
+	
+	
+	public void init() {
+		System.out.println("Init method getting invocked post constructor");
+	}
+	
+	public String checkElegibility() {
+		
+		if(age<18)
+		return name;
+		
+	}
+	
+	
+}

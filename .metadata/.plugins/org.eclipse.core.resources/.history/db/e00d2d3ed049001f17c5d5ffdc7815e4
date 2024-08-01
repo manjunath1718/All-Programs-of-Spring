@@ -1,0 +1,11 @@
+package com.telusko.service;
+
+public class Mockito implements Courses {
+
+	@Override
+	public Boolean getCourse() {
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,34 @@
+package com.telusko;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class Voter {
+	
+	@Value("${voter.info.name}")
+	String name;
+	@Value("${voter.info.age}")
+	Integer age;
+
+	static {
+		System.out.println("Voter class is loaded");
+	}
+	
+	public Voter() {
+		System.out.println("Voter Bean created");
+	}
+	
+	
+	public void init() {
+		System.out.println("Init method getting invocked post constructor");
+	}
+	
+	public String checkElegibility() {
+
+		if(age<18)
+			return "Have Patience your time will come to vote";
+		else
+			return "You're eligible to vote";
+	}
+	
+	
+}

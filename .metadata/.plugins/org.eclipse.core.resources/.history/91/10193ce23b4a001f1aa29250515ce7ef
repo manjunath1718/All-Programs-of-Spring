@@ -1,0 +1,3 @@
+spring.application.name=SpringBeanLC
+voter.info.name=ram
+voter.info.age=19

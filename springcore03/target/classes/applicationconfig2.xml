@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+
+<context:annotation-config/>
+<context:component-scan base-package="com.telusko"/>
+
+<bean id="emp1" class=" com.telusko.bean.Employee">
+<constructor-arg value="1"/>
+<constructor-arg value="rahul"/>
+<constructor-arg value="444.4"/>
+<constructor-arg value="Bengaluru"/>
+</bean>
+
+<bean id="emp2" class=" com.telusko.bean.Employee">
+<constructor-arg index="3" value="Belagavi"/>
+<constructor-arg index="2" value="555.55"/>
+<constructor-arg index="1" value="raj"/>
+<constructor-arg index="0" value="2"/>
+</bean>
+
+		<bean id="emp4" class=" com.telusko.bean.Employee">
+		<constructor-arg name="addr" value="Hubballi"/>
+		<constructor-arg name="name" value="robert"/>
+		<constructor-arg name="salary" value="555.55"/>
+		<constructor-arg name="id" value="3"/>
+		</bean>
+
+
+
+
+
+</beans>

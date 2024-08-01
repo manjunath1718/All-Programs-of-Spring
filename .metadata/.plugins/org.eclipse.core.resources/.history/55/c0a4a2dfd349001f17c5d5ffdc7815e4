@@ -1,0 +1,21 @@
+package com.telusko.service;
+
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
+
+@Service
+@Profile({"springboot","jen","doc"})
+public class SpringBoot implements Courses{
+
+	public SpringBoot(){
+		
+		System.out.println("SpringBoot Bean created");
+	}
+	
+	@Override
+	public Boolean getCourse() {
+		System.out.println("Spring boot Course is purchased... ");
+		return true;
+	}
+
+}
