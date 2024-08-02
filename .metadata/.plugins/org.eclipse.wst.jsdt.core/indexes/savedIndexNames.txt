@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+D:\weekdayspring\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2958547768.index
+1113604111.index
+1432440069.index
+694061698.index
+114114278.index
+3343969198.index
+1520615033.index
+2307013396.index
+1609343418.index
+1496612365.index

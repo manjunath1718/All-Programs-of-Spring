@@ -1,3 +1,0 @@
-spring.application.name=SpringBootProfiles
-
-spring.profile.active=dev.properties

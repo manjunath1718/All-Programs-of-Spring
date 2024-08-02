@@ -1,4 +1,0 @@
-spring.application.name=SpringBootProfiles
-
-spring.profiles.include=springboot
-spring.profiles.active=sit

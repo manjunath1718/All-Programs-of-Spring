@@ -1,0 +1,21 @@
+package com.telusko.controller;
+
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.telusko.model.Course;
+
+@Controller
+public class CourseController {
+
+	@GetMapping("/courseInfo")
+	public String getCourse(Map<String,Object> map) {
+		
+		Course course=new Course();
+		
+		map.put("course1", course);
+		return "course";
+	}
+}

@@ -1,0 +1,18 @@
+package com.telusko.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class FirstController {
+
+	@RequestMapping("/welcome")
+	public String displaySomeMessage(Model model) {
+		System.out.println("Model is implemented by "+model.getClass());
+		System.out.println("Model is implemented by "+model.getClass().getName());
+		model.addAttribute("message", "Hi! folks Welcome back");
+		return "home";
+	}
+	
+}
