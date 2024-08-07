@@ -1,0 +1,18 @@
+package com.telusko.controller;
+
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class QueryParamController {
+
+	@GetMapping("/getmsg")
+	public String getSomeMsg(@RequestParam String n,Map<String,Object> map){
+		System.out.println("hi");
+		map.put("msg", "hi "+n+" I hope you're enjoying"+course);
+		return "index";
+	}
+}

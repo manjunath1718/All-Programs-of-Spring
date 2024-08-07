@@ -1,0 +1,12 @@
+package com.telusko.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class TestController {
+
+	public String showHomePage(){
+		
+		return "home";
+	}
+}

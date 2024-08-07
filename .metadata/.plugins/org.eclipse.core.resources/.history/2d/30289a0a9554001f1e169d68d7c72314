@@ -1,0 +1,17 @@
+package com.telusko.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+@Controller
+public class PathParam {
+
+	@GetMapping("/getmsg/{name}/{course}")
+	public String getSomeMsg(@PathVariable String name,String course,Model model) {
+		
+		model.addAttribute("msg","hi "+name+" I hope you're enjoying "+course);
+		return "index";
+	}
+}

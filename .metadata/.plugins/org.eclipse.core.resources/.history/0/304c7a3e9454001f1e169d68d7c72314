@@ -1,0 +1,14 @@
+package com.telusko.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
+public class PathParam {
+
+	public String getSomeMsg(String name,Model model) {
+		
+		model.addAllAttributes("msg","hi "+name+" I hope you're enjoying ");
+		return "index";
+	}
+}
