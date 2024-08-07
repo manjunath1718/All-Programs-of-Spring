@@ -1,5 +1,0 @@
-spring.application.name=SpringMvcWebApp4
-spring.mvc.view.prefix=/
-spring.mvc.view.suffix=.jsp
-server.servlet.contex-path=CourseApp
-server.port=8484
