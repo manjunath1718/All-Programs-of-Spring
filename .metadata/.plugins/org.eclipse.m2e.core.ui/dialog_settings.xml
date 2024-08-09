@@ -80,6 +80,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\weekdayspring\SpringMvcCRMThymeleafApp"/>
 			<item value="D:\weekdayspring\SpringMvcCRMApp"/>
 			<item value="D:\weekdayspring\SpringMvcWebApp4"/>
 			<item value="D:\weekdayspring\SpringMvcWebApp3"/>

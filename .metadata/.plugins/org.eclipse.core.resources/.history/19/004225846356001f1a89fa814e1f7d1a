@@ -1,0 +1,11 @@
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class LaunchJackson2 {
+
+	public static void main(String[] args) {
+		
+		ObjectMapper mapper=new ObjectMapper();
+		
+		mapper.readValue(new File("json/sample.json"), Alien.class);
+	}
+}
