@@ -49,6 +49,7 @@
 			<item value="com.telusko"/>
 		</list>
 		<list key="name">
+			<item value="jacksonApi1"/>
 			<item value="springcore05"/>
 			<item value="springcore04"/>
 			<item value="springcore03"/>
@@ -56,6 +57,7 @@
 			<item value="springcore01"/>
 		</list>
 		<list key="artifactId">
+			<item value="jacksonApi1"/>
 			<item value="springcore05"/>
 			<item value="springcore04"/>
 			<item value="springcore03"/>
@@ -80,6 +82,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\weekdayspring\SpringMvcRestApi1"/>
 			<item value="D:\weekdayspring\SpringMvcCRMThymeleafApp"/>
 			<item value="D:\weekdayspring\SpringMvcCRMApp"/>
 			<item value="D:\weekdayspring\SpringMvcWebApp4"/>

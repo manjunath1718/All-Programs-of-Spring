@@ -1,0 +1,14 @@
+package com.example.service;
+
+import java.util.List;
+
+import com.example.exception.TouristNotFoundException;
+import com.example.model.Tourist;
+
+public interface ITouristService {
+
+	public String registerTourist(Tourist tourist);
+	public List<Tourist> fetchTouristsInfo();
+	public String deleteTouristById(Integer id) throws TouristNotFoundException;
+	
+}

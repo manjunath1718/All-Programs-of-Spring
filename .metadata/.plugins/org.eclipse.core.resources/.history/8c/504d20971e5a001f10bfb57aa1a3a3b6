@@ -1,0 +1,6 @@
+spring.application.name=TicketBookingapp
+
+server.servlet.context-path=/TicketApp
+server.port=8484
+
+#dataSourceConfiguration

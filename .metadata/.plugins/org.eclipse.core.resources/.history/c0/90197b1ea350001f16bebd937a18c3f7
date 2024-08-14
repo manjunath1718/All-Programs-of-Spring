@@ -1,3 +1,0 @@
-spring.application.name=SpringMvcWebApp1
-spring.mvc.servlet.prefix=/view/
-spring.mvc.servlet.suffix=.jsp

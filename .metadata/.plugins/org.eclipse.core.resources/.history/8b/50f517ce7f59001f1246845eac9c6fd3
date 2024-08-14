@@ -1,0 +1,12 @@
+{
+  "id" : 101,
+  "name" : "ross",
+  "city" : "newyork",
+  "course":{
+	       "cid":1,
+	       "cname":"DevOps",
+	       "instructorName":"hyder",
+	       "price":"2000"
+  },
+  "hobbies":["scrolling insta reels","playing cricket","watching movies"]
+}

@@ -243,4 +243,5 @@
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_sessions_2.0.xsd" uri="jar:file:/D:/software/eclipse-jee-2020-06-R-win32-x86_64/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.500.v202404202240.jar!/schemas/eclipselink_sessions_2.0.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_sessions_2.1.xsd" uri="jar:file:/D:/software/eclipse-jee-2020-06-R-win32-x86_64/eclipse/plugins/org.eclipse.persistence.core_2.7.3.v20180807-4be1041.jar!/org/eclipse/persistence/eclipselink_sessions_2.1.xsd"/>
   <uri id="org.w3c.xinclude" name="http://www.w3.org/2001/XInclude" uri="jar:file:/D:/software/eclipse-jee-2020-06-R-win32-x86_64/eclipse/plugins/org.eclipse.wst.xsl.core_1.2.200.v202405130119.jar!/xslt-schemas/xinclude.xsd"/>
+  <public publicId="-//LOG4J//DTD LOG4J//EN" uri="jar:file:/D:/software/eclipse-jee-2020-06-R-win32-x86_64/eclipse/plugins/org.springsource.ide.eclipse.commons.ui_4.24.0.202407191456.jar!/dtd/log4j-1.2.dtd" webURL="https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd"/>
 </catalog>

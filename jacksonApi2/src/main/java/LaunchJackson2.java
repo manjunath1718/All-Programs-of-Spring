@@ -11,7 +11,23 @@ public class LaunchJackson2 {
 		
 		ObjectMapper mapper=new ObjectMapper();
 		
-		Alien alien = mapper.readValue(new File("json/sample.json"), Alien.class);
-		System.out.println(alien);
+//		Alien alien = mapper.readValue(new File("json/sample.json"), Alien.class);
+//		System.out.println(alien);
+		
+		Alien alien = mapper.readValue(new File("json/sample-complex.json"), Alien.class);
+
+		Integer id = alien.getId();
+	    String name = alien.getName();
+		String city = alien.getCity();
+		Course course = alien.getCourse();
+		
+		System.out.println(id+" "+name+" "+city);
+		System.out.println(course);
+		
+		String[] hobbies=alien.getHobbies();
+		for(String hobby : hobbies) {
+			System.out.println(hobby);
+		}
+	
 	}
 }

@@ -1,0 +1,45 @@
+package com.example.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.dao.ITouristRepo;
+import com.example.exception.TouristNotFoundException;
+import com.example.model.Tourist;
+
+@Service
+public class TouristServiceImpl implements ITouristService {
+
+	@Autowired
+	ITouristRepo repo;
+	
+	@Override
+	public String registerTourist(Tourist tourist) {
+		
+		Tourist t = repo.save(tourist);		
+		return "Tourist with id "+t.getId()+" Registered";
+	}
+
+	@Override
+	public List<Tourist> fetchTouristsInfo() {
+		
+		return repo.findAll();
+	}
+
+	@Override
+	public String deleteTouristById(Integer id) throws TouristNotFoundException {
+		
+		Optional<Tourist> optional = repo.findById(id);
+		if(optional.isPresent()) {
+			repo.deleteById(id);
+			return "Tourist Info with Id "+id+" deleted";
+		}
+		else {
+			throw new TouristNotFoundException("Tourist Info with Id "+id+" Not Found");
+		}
+	}
+
+}
