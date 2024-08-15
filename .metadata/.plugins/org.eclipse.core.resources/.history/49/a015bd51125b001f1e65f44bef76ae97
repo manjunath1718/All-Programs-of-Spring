@@ -1,0 +1,36 @@
+package com.telusko.controller;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.telusko.model.Course;
+
+@Controller
+public class CourseController {
+
+	@GetMapping("/courseInfo/{id}")
+	public ResponseEntity<Course> getCourse(@PathVariable("id")Integer id) {
+		
+		Course course=new Course(101, "DevOps", 5000.0);			
+		
+		return new ResponseEntity<Course>(course,HttpStatus.OK);
+	}
+	
+	@GetMapping("getAllCourses")
+	public ResponseEntity<List<Course>> getAllCourse() {
+		
+		
+		Course c1=new Course(101, "Spring", 5000.0);
+		Course c2=new Course(102, "Microservices", 4000.0);
+		Course c3=new Course(103, "DevOps", 3000.0);
+		List<Course> courses=List.of(c1, c2,c3);
+		
+		return new ResponseEntity<Course>(courses,HttpStatus.OK);
+	}
+}
