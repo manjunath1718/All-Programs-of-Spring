@@ -1,5 +1,0 @@
-spring.application.name=SpringMvcWebApp7PathParam
-spring.mvc.view.prefix=/
-spring.mvc.view.suffix=.jsp
-#server.servlet.context-path=/MyApp
-server.port=8484

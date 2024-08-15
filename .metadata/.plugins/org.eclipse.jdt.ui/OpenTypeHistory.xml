@@ -11,4 +11,5 @@
     <typeInfo handle="=SpringBootProfiles/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.telusko.service{Courses.java[Courses" modifiers="513" timestamp="1721831680231"/>
     <typeInfo handle="=SpringMvcWebApp3/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.telusko.service{IGreetingService.java[IGreetingService" modifiers="513" timestamp="1722598977167"/>
     <typeInfo handle="=SpringMvcCRMApp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.telusko.service{ICustomerService.java[ICustomerService" modifiers="513" timestamp="1723099950806"/>
+    <typeInfo handle="=SpringDataRestDemo/C:\/Users\/betag\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.3.2\/spring-data-jpa-3.3.2.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.3.2=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1721476874931"/>
 </typeInfoHistroy>
