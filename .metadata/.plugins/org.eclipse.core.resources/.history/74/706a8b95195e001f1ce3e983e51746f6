@@ -1,0 +1,42 @@
+package com.example.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.example.reqres.Passenger;
+import com.example.reqres.Ticket;
+import com.example.service.IBookingTicketService;
+
+@Controller
+public class TicketBookingController {
+
+	@Autowired
+	IBookingTicketService service;
+	
+	@PostMapping("/book-ticket")
+	public String bookTicket(@ModelAttribute Passenger passenger,Model model) {
+		
+		Ticket ticket = service.bookTicket(passenger);
+		model.addAttribute("ticketNumber", ticket.getTicketNumber());
+		return "index";		
+	}
+	
+//	@GetMapping("/form")
+//	public String getForm(Model model){
+//		
+//		model.addAttribute("passenger", new Passenger());
+//		return "index";
+//	}
+	
+	@GetMapping("/form")
+	public String getForm(@ModelAttribute Passenger passenger){
+		
+		return "index";
+	}
+	
+	
+}

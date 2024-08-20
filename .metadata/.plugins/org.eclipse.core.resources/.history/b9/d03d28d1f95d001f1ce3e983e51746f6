@@ -1,0 +1,24 @@
+package com.example.service;
+
+import org.springframework.stereotype.Service;
+
+import com.example.model.Passenger;
+import com.example.model.Ticket;
+
+//@Service
+public class BookingTicketService implements IBookingTicketService {
+
+	@Override
+	public Ticket bookTicket(Passenger passenger) {
+		
+		RestTe
+		return null;
+	}
+
+	@Override
+	public Ticket getTicketInfo(Integer ticketNumber) {
+		
+		return null;
+	}
+
+}

@@ -4,7 +4,7 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
 //import jakarta.xml.bind.annotation.XmlRootElement;
 
-//@XmlRootElement//we can use @JacksonXmlRootElement with diff dependencies in pom.xml
+//@XmlRootElement//we can use @XmlRootElement with diff dependencies in pom.xml
 @JacksonXmlRootElement
 public class Course {
 

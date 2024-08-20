@@ -1,5 +1,0 @@
-spring.application.name=SpringMvcCRMApp
-#web
-spring.mvc.view.preffix=/views/
-spring.mvc.view.sufix=.jsp
-#jpa

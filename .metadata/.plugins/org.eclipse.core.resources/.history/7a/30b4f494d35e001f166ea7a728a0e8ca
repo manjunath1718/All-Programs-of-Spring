@@ -1,0 +1,29 @@
+package com.example;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.reactive.function.client.WebClient;
+
+import com.example.reqres.Ticket;
+
+@SpringBootApplication
+public class TicketBookingWebAppApplication {
+
+	private static String GET_URL = 
+			"http://localhost:8484/TicketBookingApp/provider/api/getTicket/{ticketNumber}";
+
+	public static void main(String[] args) {
+		SpringApplication.run(TicketBookingWebAppApplication.class, args);
+		
+		Ticket ticket = WebClient.create()
+				.get()
+				.uri(GET_URL,444)
+				.retrieve()
+				.bodyToMono(Ticket.class)
+				.block();
+		
+		System.out.println(ticket);
+		
+	}
+
+}

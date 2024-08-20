@@ -1,0 +1,52 @@
+package com.example.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.model.Passenger;
+import com.example.model.Ticket;
+import com.example.service.ITicketBookingService;
+
+@RestController
+@RequestMapping("/api")
+public class TicketBookingRestController {
+	
+	@Autowired
+	ITicketBookingService service;
+
+	@PostMapping("/register")
+	public ResponseEntity<Ticket> registerPassenger(Passenger passenger){
+		
+		service.registerPassenger(passenger);
+		Ticket ticket = new Ticket();
+		ticket.setTicketNumber(passenger.getId());
+		return new ResponseEntity<>(ticket, HttpStatus.OK);
+	}
+	
+	@GetMapping("/get/{id}")
+	public ResponseEntity<Ticket> getMyFullticket(@PathVariable("id") Integer id){
+		
+		Ticket ticket = new Ticket();
+		
+		Passenger passenger = service.fetchPassenger(id);
+		
+		ticket.setStatus("confirmed");
+		ticket.setTicketNumber(passenger.getId());
+		ticket.setArrival(arrival);
+		ticket.setDeparture(departure);
+		ticket.setTicketCost(ticketCost);
+		ticket.setDateOfJourney(dateOfJourney);
+		
+		return new ResponseEntity<>(passenger, HttpStatus.OK);
+	}
+	
+	
+	
+	
+}

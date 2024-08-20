@@ -1,0 +1,10 @@
+package com.example.model;
+
+public class Ticket {
+	
+	Integer ticketNumber;
+	String status;
+	Double ticketCost;
+	
+
+}

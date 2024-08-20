@@ -1,0 +1,23 @@
+package com.example.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class Passenger {
+
+	Integer id;
+	
+	String name;
+	
+	String departure;
+	
+	String arrival;
+	
+	String dateOfJourney;
+	
+}

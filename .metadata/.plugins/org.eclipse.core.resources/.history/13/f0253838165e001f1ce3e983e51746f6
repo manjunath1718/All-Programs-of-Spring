@@ -1,0 +1,10 @@
+package com.example.service;
+
+import com.example.model.Passenger;
+import com.example.model.Ticket;
+
+public interface IBookingTicketService {
+
+	public Ticket bookTicket(Passenger passenger);
+	public Ticket getTicketInfo(Integer ticketNumber);
+}

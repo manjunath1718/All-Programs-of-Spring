@@ -1,8 +1,0 @@
-package com.telusko.service;
-
-import com.telusko.model.Customer;
-
-public interface ICustomerService {
-
-	public void registerCustomer(Customer customer);
-}
