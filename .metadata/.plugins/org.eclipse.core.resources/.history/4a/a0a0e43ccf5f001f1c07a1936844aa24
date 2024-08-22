@@ -1,0 +1,4 @@
+spring.application.name=SpringBootBannerApp
+
+spring.banner.image.location=location=classpath:banner.png
+#spring.main.banner-mode=off

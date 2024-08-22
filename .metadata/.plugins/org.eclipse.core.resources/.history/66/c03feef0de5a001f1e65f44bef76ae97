@@ -1,9 +1,0 @@
-package com.telusko.model;
-
-
-public class Course {
-
-	Integer id;
-	String name;
-	Double price;
-}

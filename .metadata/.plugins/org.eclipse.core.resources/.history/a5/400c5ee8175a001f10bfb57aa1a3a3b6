@@ -1,8 +1,0 @@
-package com.example.service;
-
-import com.example.model.Tourist;
-
-public interface ITouristService {
-
-	public String registerTourist(Tourist tourist);
-}
