@@ -15,4 +15,6 @@
     <typeInfo handle="=TicketBookingAppProvider/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.service{ITicketBookingService.java[ITicketBookingService" modifiers="513" timestamp="1723821251885"/>
     <typeInfo handle="=TicketBookingWebApp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.service{IBookingTicketService.java[IBookingTicketService" modifiers="513" timestamp="1724063499728"/>
     <typeInfo handle="=SpringMvcRestApiUnitTestingMockito/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.telusko.service{IGreetingService.java[IGreetingService" modifiers="513" timestamp="1724225942433"/>
+    <typeInfo handle="=SpringAOPExample/C:\/Users\/betag\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.3.3\/spring-data-jpa-3.3.3.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.3.3=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1724396077519"/>
+    <typeInfo handle="=SpringAOPExample/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.telusko.service{IAlienService.java[IAlienService" modifiers="513" timestamp="1724396566575"/>
 </typeInfoHistroy>

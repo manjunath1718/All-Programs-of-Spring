@@ -64,6 +64,18 @@ public class StudentController
 		return ResponseEntity.ok(st);
 	}
 	
+//	@PutMapping("/Student/{id}")
+//	public ResponseEntity<Student> getStudentById(@PathVariable Long id, @RequestBody Student student)
+//	{
+//		Student st=service.getStudentById(id);
+//		student.setId(st.getId());
+//		
+//		Student updatedData=service.updateStudent(student);
+//		
+//		//return new ResponseEntity<Student>(updatedData, HttpStatus.OK);
+//		return ResponseEntity.ok(updatedData);
+//	}
+	
 	
 	@DeleteMapping("/Student/{id}")
 	public ResponseEntity<Student> deleteStudentById(@PathVariable Long id)
