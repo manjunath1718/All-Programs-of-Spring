@@ -49,6 +49,7 @@
 			<item value="com.telusko"/>
 		</list>
 		<list key="name">
+			<item value="Log4jExample"/>
 			<item value="jacksonApi1"/>
 			<item value="springcore05"/>
 			<item value="springcore04"/>
@@ -57,6 +58,7 @@
 			<item value="springcore01"/>
 		</list>
 		<list key="artifactId">
+			<item value="Log4jExample"/>
 			<item value="jacksonApi1"/>
 			<item value="springcore05"/>
 			<item value="springcore04"/>
