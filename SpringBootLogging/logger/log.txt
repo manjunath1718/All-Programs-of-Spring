@@ -1,0 +1,14 @@
+2024-08-28 12:52:53,888 : com.telusko.SpringBootLoggingApplication :  INFO --> Starting SpringBootLoggingApplication using Java 17.0.10 with PID 24640 (D:\weekdayspring\SpringBootLogging\target\classes started by betag in D:\weekdayspring\SpringBootLogging)  : logStarting :  
+2024-08-28 12:52:53,890 : com.telusko.SpringBootLoggingApplication :  INFO --> No active profile set, falling back to 1 default profile: "default"  : logStartupProfileInfo :  
+2024-08-28 12:52:54,451 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer :  INFO --> Tomcat initialized with port 8080 (http)  : initialize :  
+2024-08-28 12:52:54,460 : org.apache.catalina.core.StandardService :  INFO --> Starting service [Tomcat]  : log :  
+2024-08-28 12:52:54,461 : org.apache.catalina.core.StandardEngine :  INFO --> Starting Servlet engine: [Apache Tomcat/10.1.28]  : log :  
+2024-08-28 12:52:54,493 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] :  INFO --> Initializing Spring embedded WebApplicationContext  : log :  
+2024-08-28 12:52:54,494 : org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext :  INFO --> Root WebApplicationContext: initialization completed in 561 ms  : prepareWebApplicationContext :  
+2024-08-28 12:52:54,722 : org.springframework.boot.web.embedded.tomcat.TomcatWebServer :  INFO --> Tomcat started on port 8080 (http) with context path ''  : start :  
+2024-08-28 12:52:54,729 : com.telusko.SpringBootLoggingApplication :  INFO --> Started SpringBootLoggingApplication in 1.158 seconds (process running for 1.577)  : logStarted :  
+2024-08-28 12:53:09,903 : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] :  INFO --> Initializing Spring DispatcherServlet 'dispatcherServlet'  : log :  
+2024-08-28 12:53:09,903 : org.springframework.web.servlet.DispatcherServlet :  INFO --> Initializing Servlet 'dispatcherServlet'  : initServletBean :  
+2024-08-28 12:53:09,903 : org.springframework.web.servlet.DispatcherServlet :  INFO --> Completed initialization in 0 ms  : initServletBean :  
+2024-08-28 12:53:09,965 : com.telusko.rest.GreetingController :  INFO --> control in api 1  : greeting :  
+2024-08-28 12:53:20,018 : org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin :  INFO --> Application shutdown requested.  : shutdown :  

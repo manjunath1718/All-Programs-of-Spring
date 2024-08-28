@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration status="INFO">
+
+<appenders>
+      <File name="LoggingToFile" filename="logs/mylogging.log">
+           <PatternLayout>
+              <Pattern>
+                   %d - %c -[%M] - (%p) - %m - %n
+              </Pattern>
+          </PatternLayout>
+      </File>
+      
+      <Console name="LoggingToConsole" target="SYSTEM_OUT">
+          <PatternLayout>
+              <Pattern>
+                   %d - %c -[%M] - (%p) - %m - %n
+              </Pattern>
+          </PatternLayout>
+      </Console>
+</appenders>
+
+<loggers>
+      <Root level="trace">
+         <AppenderRef ref="LoggingToConsole"/>
+         <AppenderRef ref="LoggingToFile"/>
+      </Root>
+</loggers>
+
+</configuration>
+

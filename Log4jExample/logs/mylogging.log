@@ -1,0 +1,6 @@
+2024-08-28 09:36:03,206 - com.telusko.Log4jTest -[process] - (TRACE) - FROM THE TRACE METHOD - 
+2024-08-28 09:36:03,209 - com.telusko.Log4jTest -[process] - (DEBUG) - FROM THE DEBUG METHOD - 
+2024-08-28 09:36:03,209 - com.telusko.Log4jTest -[process] - (INFO) - FROM THE INFO METHOD - 
+2024-08-28 09:36:03,210 - com.telusko.Log4jTest -[process] - (WARN) - FROM THE WARN METHOD - 
+2024-08-28 09:36:03,210 - com.telusko.Log4jTest -[process] - (ERROR) - FROM THE ERROR METHOD - 
+2024-08-28 09:36:03,210 - com.telusko.Log4jTest -[process] - (FATAL) - FROM THE FATAL METHOD - 
