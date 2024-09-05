@@ -84,6 +84,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\groupProject\customer-reward-program-main"/>
 			<item value="D:\weekdayspring\BackEndSMProject"/>
 			<item value="D:\weekdayspring\SpringMvcRestApi1"/>
 			<item value="D:\weekdayspring\SpringMvcCRMThymeleafApp"/>
@@ -98,7 +99,6 @@
 			<item value="D:\weekdayspring\SpringDataJpa1"/>
 			<item value="D:\weekdayspring\SpringDataJDBC"/>
 			<item value="D:\weekdayspring\SpringJDBCAPI"/>
-			<item value="D:\weekdayspring\SpringBoot01"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
